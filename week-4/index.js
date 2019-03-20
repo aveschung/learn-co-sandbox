@@ -8,10 +8,12 @@ let newDiv = document.createElement('div')
 // 2. <div>red</div>
 if)color === 'red') {
   newDiv.innerHTML = color + ' color'
-} else 
+} else {
+  newDiv.innerHTML = color
+}
 
 
-newDiv.innerHTML = color
+
 // 3. div's background color is red
 // <div style="background-color: red">
 newDiv.style.backgroundColor = color
