@@ -6,7 +6,7 @@ function makeColorfulDiv(color) {
 let newDiv = document.createElement('div')
 // red = <div></div>
 // 2. <div>red</div>
-if(color === 'red') {
+if(color === 'red'|| color === 'orange') {
   newDiv.innerHTML = color + ' color'
 } else {
   newDiv.innerHTML = color
